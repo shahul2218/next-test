@@ -5,6 +5,7 @@
 body {
   @apply bg-slate-700;
 }
+
 .mobile-menu {
   display: none;
 }
