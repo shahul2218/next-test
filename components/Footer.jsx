@@ -144,7 +144,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li className="mb-2">
-                  <Link href="/">
+                  <Link href="/contact">
                     <a className="border-b border-solid border-transparent text-slate-400 hover:border-slate-50 hover:text-slate-50">
                       Contact Us
                     </a>
@@ -157,11 +157,8 @@ const Footer = () => {
                 Stay connected
               </h5>
               <div className="flex sm:justify-center xl:justify-start">
-                <Link href="/">
-                  <a
-                    href=""
-                    className="w-8 h-8 border-2 border-gray-400 rounded-full text-center py-1 ml-2 text-gray-600 hover:text-white hover:bg-blue-400 hover:border-blue-400"
-                  >
+                <Link href="https://twitter.com/home">
+                  <a className="w-8 h-8 border-2 border-gray-400 rounded-full text-center py-1 ml-2 text-gray-600 hover:text-white hover:bg-blue-400 hover:border-blue-400">
                     <FontAwesomeIcon icon={faTwitter} />
                   </a>
                 </Link>

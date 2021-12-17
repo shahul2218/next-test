@@ -9,7 +9,9 @@ const Navbar = () => {
     <nav className="bg-slate-800 w-full shadow-sm fixed">
       <div className="bg-slate-800 rounded-sm  overflow-hidden md:w-10/12 sm:w-11/12 mx-auto ">
         <div className="flex justify-between items-center h-16 md:px-5 px-3">
-          <section className="text-slate-200 text-2xl">Logo</section>
+          <section className="text-slate-200 text-2xl">
+            <Link href="/">Logo</Link>
+          </section>
           <nav>
             <ul
               className={isMobile ? "mobile-menu" : "menu"}
