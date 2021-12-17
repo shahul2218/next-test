@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      <a href="/">home</a>
+      <a href="google.com">home</a>
     </div>
   );
 }
