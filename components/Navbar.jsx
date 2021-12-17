@@ -40,6 +40,7 @@ const Navbar = () => {
           <button
             className="btn shadow-md p-2 rounded-md md:hidden mobile-menu-button bg-slate-700 text-slate-200"
             onClick={() => setIsMobile(!isMobile)}
+            aria-label="Menu Toggler"
           >
             {isMobile ? (
               <svg
